@@ -1,0 +1,29 @@
+distributed.http.proxy - INFO - To route to workers diagnostics web server please install jupyter-server-proxy: python -m pip install jupyter-server-proxy
+distributed.scheduler - INFO - Clear task state
+distributed.scheduler - INFO -   Scheduler at:  tcp://10.128.4.116:38025
+distributed.scheduler - INFO -   dashboard at:                     :8787
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.116:33701
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.116:33701
+distributed.worker - INFO -          dashboard at:         10.128.4.116:34923
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.4.116:38025
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                   15.00 GB
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-e4yskxx8
+distributed.worker - INFO - -------------------------------------------------
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.116:33701', name: 1, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.116:33701
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.4.116:38025
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-d2a9e0f0-6757-11ec-aa79-87e0f9a33358
+distributed.core - INFO - Starting established connection
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+###############
+Start!
+###############
+slurmstepd: error: *** STEP 52391097.0 ON nid01131 CANCELLED AT 2021-12-27T13:12:20 ***
+srun: got SIGCONT
+slurmstepd: error: *** JOB 52391097 ON nid01131 CANCELLED AT 2021-12-27T13:12:20 ***
+srun: forcing job termination

@@ -1,0 +1,10 @@
+###############
+Start!
+###############
+hello form dask, here is our client
+<Client: 'tcp://10.128.6.74:33223' processes=63 threads=63>
+63 workers created
+Traceback (most recent call last):
+  File "/global/cscratch1/sd/lianming/FullRunSplit/3_8_Full.py", line 71, in <module>
+    raise ValueError('Worker Not Enough! No. of worker is {}.'.format(WorkerNo) )
+ValueError: Worker Not Enough! No. of worker is 63.

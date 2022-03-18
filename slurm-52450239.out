@@ -1,0 +1,1824 @@
+distributed.http.proxy - INFO - To route to workers diagnostics web server please install jupyter-server-proxy: python -m pip install jupyter-server-proxy
+distributed.scheduler - INFO - Clear task state
+distributed.scheduler - INFO -   Scheduler at:   tcp://10.128.8.37:41223
+distributed.scheduler - INFO -   dashboard at:                     :8787
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.37:36835
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.37:36835
+distributed.worker - INFO -          dashboard at:          10.128.8.37:46309
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-7aidyd7_
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.40:40633
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.40:40633
+distributed.worker - INFO -          dashboard at:          10.128.8.40:34843
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-5kcqzns1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.38:34247
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.38:34247
+distributed.worker - INFO -          dashboard at:          10.128.8.38:40015
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-znvnna90
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.39:36627
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.39:36627
+distributed.worker - INFO -          dashboard at:          10.128.8.39:44031
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-_g3oqvi3
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.37:45327
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.37:45327
+distributed.worker - INFO -          dashboard at:          10.128.8.37:34215
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-a3dpkrnp
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.40:41837
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.40:41837
+distributed.worker - INFO -          dashboard at:          10.128.8.40:44027
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-y879ua6f
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.39:34627
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.39:34627
+distributed.worker - INFO -          dashboard at:          10.128.8.39:33803
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-fhof4d3i
+distributed.worker - INFO - -------------------------------------------------
+Traceback (most recent call last):
+  File "/opt/miniconda3/bin/dask-mpi", line 11, in <module>
+    sys.exit(go())
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 112, in go
+    main()
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 107, in main
+    asyncio.get_event_loop().run_until_complete(run_worker())
+  File "/opt/miniconda3/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 96, in run_worker
+    async with WorkerType(
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 294, in __aenter__
+    await self
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 284, in _
+    await self.start()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 1166, in start
+    await self._register_with_scheduler()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 914, in _register_with_scheduler
+    raise ValueError("Unexpected response from register: %r" % (response,))
+ValueError: Unexpected response from register: {'status': 'error', 'message': 'name taken, 36', 'time': 1640914685.0362284}
+distributed.worker - INFO -       Start worker at:   tcp://10.128.51.81:46181
+distributed.worker - INFO -          Listening to:   tcp://10.128.51.81:46181
+distributed.worker - INFO -          dashboard at:         10.128.51.81:35445
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-6whtpphl
+distributed.worker - INFO - -------------------------------------------------
+Traceback (most recent call last):
+  File "/opt/miniconda3/bin/dask-mpi", line 11, in <module>
+    sys.exit(go())
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 112, in go
+    main()
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 107, in main
+    asyncio.get_event_loop().run_until_complete(run_worker())
+  File "/opt/miniconda3/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 96, in run_worker
+    async with WorkerType(
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 294, in __aenter__
+    await self
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 284, in _
+    await self.start()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 1166, in start
+    await self._register_with_scheduler()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 914, in _register_with_scheduler
+    raise ValueError("Unexpected response from register: %r" % (response,))
+ValueError: Unexpected response from register: {'status': 'error', 'message': 'name taken, 73', 'time': 1640914685.068371}
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.38:38447
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.38:38447
+distributed.worker - INFO -          dashboard at:          10.128.8.38:44183
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-2d0kp19m
+distributed.worker - INFO - -------------------------------------------------
+Traceback (most recent call last):
+  File "/opt/miniconda3/bin/dask-mpi", line 11, in <module>
+    sys.exit(go())
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 112, in go
+    main()
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 107, in main
+    asyncio.get_event_loop().run_until_complete(run_worker())
+  File "/opt/miniconda3/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 96, in run_worker
+    async with WorkerType(
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 294, in __aenter__
+    await self
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 284, in _
+    await self.start()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 1166, in start
+    await self._register_with_scheduler()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 914, in _register_with_scheduler
+    raise ValueError("Unexpected response from register: %r" % (response,))
+ValueError: Unexpected response from register: {'status': 'error', 'message': 'name taken, 20', 'time': 1640914685.1796856}
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.37:36499
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.37:36499
+distributed.worker - INFO -          dashboard at:          10.128.8.37:39915
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-4k28bdkr
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.38:38209
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.38:38209
+distributed.worker - INFO -          dashboard at:          10.128.8.38:34785
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-ksq1avov
+distributed.worker - INFO - -------------------------------------------------
+Traceback (most recent call last):
+  File "/opt/miniconda3/bin/dask-mpi", line 11, in <module>
+    sys.exit(go())
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 112, in go
+    main()
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 107, in main
+    asyncio.get_event_loop().run_until_complete(run_worker())
+  File "/opt/miniconda3/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 96, in run_worker
+    async with WorkerType(
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 294, in __aenter__
+    await self
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 284, in _
+    await self.start()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 1166, in start
+    await self._register_with_scheduler()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 914, in _register_with_scheduler
+    raise ValueError("Unexpected response from register: %r" % (response,))
+ValueError: Unexpected response from register: {'status': 'error', 'message': 'name taken, 21', 'time': 1640914685.464384}
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.39:45913
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.39:45913
+distributed.worker - INFO -          dashboard at:          10.128.8.39:37441
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-kb8std8w
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.37:37175
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.37:33821
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.37:37175
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.37:33821
+distributed.worker - INFO -          dashboard at:          10.128.8.37:40959
+distributed.worker - INFO -          dashboard at:          10.128.8.37:36745
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.37:36143
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.37:36143
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.37:40943
+distributed.worker - INFO -          dashboard at:          10.128.8.37:46573
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-p5e2okl9
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-o4t7gahj
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.37:40943
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:          10.128.8.37:45947
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.37:42175
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.37:44289
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-31wsuzec
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.37:42175
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.37:44289
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:          10.128.8.37:36083
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-ufr3ev2h
+distributed.worker - INFO -          dashboard at:          10.128.8.37:40481
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.37:43695
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.37:43695
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.37:41735
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-78mvi067
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          dashboard at:          10.128.8.37:43961
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-kg4ojx1y
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.37:41735
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:          10.128.8.37:44739
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.37:39883
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-2iqeq7wp
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.37:39883
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.37:46447
+distributed.worker - INFO -          dashboard at:          10.128.8.37:43293
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.37:46447
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-6cjhnc_v
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:          10.128.8.37:43497
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-skwfkfz3
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.37:33761
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-_bwsuu1r
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.37:33761
+distributed.worker - INFO -          dashboard at:          10.128.8.37:39169
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.37:44791
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.37:44791
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          dashboard at:          10.128.8.37:33201
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-lptcpzib
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-5uk00915
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+Traceback (most recent call last):
+  File "/opt/miniconda3/bin/dask-mpi", line 11, in <module>
+    sys.exit(go())
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 112, in go
+    main()
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 107, in main
+    asyncio.get_event_loop().run_until_complete(run_worker())
+  File "/opt/miniconda3/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 96, in run_worker
+    async with WorkerType(
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 294, in __aenter__
+    await self
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 284, in _
+    await self.start()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 1166, in start
+    await self._register_with_scheduler()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 914, in _register_with_scheduler
+    raise ValueError("Unexpected response from register: %r" % (response,))
+ValueError: Unexpected response from register: {'status': 'error', 'message': 'name taken, 11', 'time': 1640914685.4861274}
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+Traceback (most recent call last):
+  File "/opt/miniconda3/bin/dask-mpi", line 11, in <module>
+    sys.exit(go())
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 112, in go
+    main()
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 107, in main
+    asyncio.get_event_loop().run_until_complete(run_worker())
+  File "/opt/miniconda3/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 96, in run_worker
+    async with WorkerType(
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 294, in __aenter__
+    await self
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 284, in _
+    await self.start()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 1166, in start
+    await self._register_with_scheduler()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 914, in _register_with_scheduler
+    raise ValueError("Unexpected response from register: %r" % (response,))
+ValueError: Unexpected response from register: {'status': 'error', 'message': 'name taken, 14', 'time': 1640914685.495643}
+Traceback (most recent call last):
+  File "/opt/miniconda3/bin/dask-mpi", line 11, in <module>
+    sys.exit(go())
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 112, in go
+    main()
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 107, in main
+    asyncio.get_event_loop().run_until_complete(run_worker())
+  File "/opt/miniconda3/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 96, in run_worker
+    async with WorkerType(
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 294, in __aenter__
+    await self
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 284, in _
+    await self.start()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 1166, in start
+    await self._register_with_scheduler()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 914, in _register_with_scheduler
+    raise ValueError("Unexpected response from register: %r" % (response,))
+ValueError: Unexpected response from register: {'status': 'error', 'message': 'name taken, 5', 'time': 1640914685.4958365}
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+Traceback (most recent call last):
+  File "/opt/miniconda3/bin/dask-mpi", line 11, in <module>
+    sys.exit(go())
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 112, in go
+    main()
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 107, in main
+    asyncio.get_event_loop().run_until_complete(run_worker())
+  File "/opt/miniconda3/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 96, in run_worker
+    async with WorkerType(
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 294, in __aenter__
+    await self
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 284, in _
+    await self.start()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 1166, in start
+    await self._register_with_scheduler()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 914, in _register_with_scheduler
+    raise ValueError("Unexpected response from register: %r" % (response,))
+ValueError: Unexpected response from register: {'status': 'error', 'message': 'name taken, 13', 'time': 1640914685.502726}
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.37:35663
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.37:35663
+distributed.worker - INFO -          dashboard at:          10.128.8.37:40547
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-gse3huzb
+distributed.worker - INFO - -------------------------------------------------
+Traceback (most recent call last):
+  File "/opt/miniconda3/bin/dask-mpi", line 11, in <module>
+    sys.exit(go())
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 112, in go
+    main()
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 107, in main
+    asyncio.get_event_loop().run_until_complete(run_worker())
+  File "/opt/miniconda3/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 96, in run_worker
+    async with WorkerType(
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 294, in __aenter__
+    await self
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 284, in _
+    await self.start()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 1166, in start
+    await self._register_with_scheduler()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 914, in _register_with_scheduler
+    raise ValueError("Unexpected response from register: %r" % (response,))
+ValueError: Unexpected response from register: {'status': 'error', 'message': 'name taken, 3', 'time': 1640914685.5517972}
+distributed.worker - INFO -       Start worker at:   tcp://10.128.51.81:42777
+distributed.worker - INFO -          Listening to:   tcp://10.128.51.81:42777
+distributed.worker - INFO -          dashboard at:         10.128.51.81:37089
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-rnywopui
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.51.81:46045
+distributed.worker - INFO -          Listening to:   tcp://10.128.51.81:46045
+distributed.worker - INFO -          dashboard at:         10.128.51.81:38007
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-3cvzmxs3
+distributed.worker - INFO - -------------------------------------------------
+Traceback (most recent call last):
+  File "/opt/miniconda3/bin/dask-mpi", line 11, in <module>
+    sys.exit(go())
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 112, in go
+    main()
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 107, in main
+    asyncio.get_event_loop().run_until_complete(run_worker())
+  File "/opt/miniconda3/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 96, in run_worker
+    async with WorkerType(
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 294, in __aenter__
+    await self
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 284, in _
+    await self.start()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 1166, in start
+    await self._register_with_scheduler()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 914, in _register_with_scheduler
+    raise ValueError("Unexpected response from register: %r" % (response,))
+ValueError: Unexpected response from register: {'status': 'error', 'message': 'name taken, 72', 'time': 1640914685.5981543}
+Traceback (most recent call last):
+  File "/opt/miniconda3/bin/dask-mpi", line 11, in <module>
+    sys.exit(go())
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 112, in go
+    main()
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 107, in main
+    asyncio.get_event_loop().run_until_complete(run_worker())
+  File "/opt/miniconda3/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 96, in run_worker
+    async with WorkerType(
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 294, in __aenter__
+    await self
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 284, in _
+    await self.start()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 1166, in start
+    await self._register_with_scheduler()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 914, in _register_with_scheduler
+    raise ValueError("Unexpected response from register: %r" % (response,))
+ValueError: Unexpected response from register: {'status': 'error', 'message': 'name taken, 74', 'time': 1640914685.6061194}
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.39:33349
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.39:33349
+distributed.worker - INFO -          dashboard at:          10.128.8.39:33609
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-0758orzp
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.39:46829
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.39:46829
+distributed.worker - INFO -          dashboard at:          10.128.8.39:42165
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-mqv030jd
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.39:33319
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.39:33319
+distributed.worker - INFO -          dashboard at:          10.128.8.39:41705
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.39:43059
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.39:43059
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.39:43473
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.39:38689
+distributed.worker - INFO -          dashboard at:          10.128.8.39:36065
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-xxr07k7p
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.39:43473
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.39:37983
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.39:38689
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:          10.128.8.39:42671
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.39:37983
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.39:33905
+distributed.worker - INFO -          dashboard at:          10.128.8.39:36901
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO -          dashboard at:          10.128.8.39:44127
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.39:38539
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.39:33905
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-lj_v_ybj
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.39:39307
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.39:38539
+distributed.worker - INFO -          dashboard at:          10.128.8.39:40017
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.39:39307
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.39:35187
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:          10.128.8.39:45027
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-fqy4k12t
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          dashboard at:          10.128.8.39:33331
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.39:35187
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-9ofzjj8p
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-w5_cvzxf
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          dashboard at:          10.128.8.39:34729
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-0iq6zj_h
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-s6kpxfp0
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-s4v24w62
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-uyp2w6g2
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.39:46745
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.39:41189
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.39:41189
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.39:46745
+distributed.worker - INFO -          dashboard at:          10.128.8.39:34161
+distributed.worker - INFO -          dashboard at:          10.128.8.39:39471
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-9pz_69sg
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-gzfrj_bn
+distributed.worker - INFO - -------------------------------------------------
+Traceback (most recent call last):
+  File "/opt/miniconda3/bin/dask-mpi", line 11, in <module>
+    sys.exit(go())
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 112, in go
+    main()
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 107, in main
+    asyncio.get_event_loop().run_until_complete(run_worker())
+  File "/opt/miniconda3/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 96, in run_worker
+    async with WorkerType(
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 294, in __aenter__
+    await self
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 284, in _
+    await self.start()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 1166, in start
+    await self._register_with_scheduler()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 914, in _register_with_scheduler
+    raise ValueError("Unexpected response from register: %r" % (response,))
+ValueError: Unexpected response from register: {'status': 'error', 'message': 'name taken, 35', 'time': 1640914685.68892}
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+Traceback (most recent call last):
+  File "/opt/miniconda3/bin/dask-mpi", line 11, in <module>
+    sys.exit(go())
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 112, in go
+    main()
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 107, in main
+    asyncio.get_event_loop().run_until_complete(run_worker())
+  File "/opt/miniconda3/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 96, in run_worker
+    async with WorkerType(
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 294, in __aenter__
+    await self
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 284, in _
+    await self.start()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 1166, in start
+    await self._register_with_scheduler()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 914, in _register_with_scheduler
+    raise ValueError("Unexpected response from register: %r" % (response,))
+ValueError: Unexpected response from register: {'status': 'error', 'message': 'name taken, 49', 'time': 1640914685.7002683}
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:   tcp://10.128.51.81:37191
+distributed.worker - INFO -          Listening to:   tcp://10.128.51.81:37191
+distributed.worker - INFO -          dashboard at:         10.128.51.81:43289
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-359enpyl
+distributed.worker - INFO - -------------------------------------------------
+Traceback (most recent call last):
+  File "/opt/miniconda3/bin/dask-mpi", line 11, in <module>
+    sys.exit(go())
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 112, in go
+    main()
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 107, in main
+    asyncio.get_event_loop().run_until_complete(run_worker())
+  File "/opt/miniconda3/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 96, in run_worker
+    async with WorkerType(
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 294, in __aenter__
+    await self
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 284, in _
+    await self.start()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 1166, in start
+    await self._register_with_scheduler()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 914, in _register_with_scheduler
+    raise ValueError("Unexpected response from register: %r" % (response,))
+ValueError: Unexpected response from register: {'status': 'error', 'message': 'name taken, 78', 'time': 1640914685.7350516}
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.39:37447
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.39:37447
+distributed.worker - INFO -          dashboard at:          10.128.8.39:34789
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-k4p7mpnj
+distributed.worker - INFO - -------------------------------------------------
+Traceback (most recent call last):
+  File "/opt/miniconda3/bin/dask-mpi", line 11, in <module>
+    sys.exit(go())
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 112, in go
+    main()
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 107, in main
+    asyncio.get_event_loop().run_until_complete(run_worker())
+  File "/opt/miniconda3/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 96, in run_worker
+    async with WorkerType(
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 294, in __aenter__
+    await self
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 284, in _
+    await self.start()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 1166, in start
+    await self._register_with_scheduler()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 914, in _register_with_scheduler
+    raise ValueError("Unexpected response from register: %r" % (response,))
+ValueError: Unexpected response from register: {'status': 'error', 'message': 'name taken, 50', 'time': 1640914685.755338}
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.38:34015
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.38:34015
+distributed.worker - INFO -          dashboard at:          10.128.8.38:44199
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-eqvv937b
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.38:39743
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.38:39743
+distributed.worker - INFO -          dashboard at:          10.128.8.38:37305
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-akbzknwc
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.38:38513
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.38:33973
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.38:38513
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.38:33973
+distributed.worker - INFO -          dashboard at:          10.128.8.38:37045
+distributed.worker - INFO -          dashboard at:          10.128.8.38:45067
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-zink2p6a
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-svix0fci
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.40:46789
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.40:46789
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.40:35581
+distributed.worker - INFO -          dashboard at:          10.128.8.40:35193
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.40:35369
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.40:35581
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.40:46199
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.40:35369
+distributed.worker - INFO -          dashboard at:          10.128.8.40:35331
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.40:46199
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO -          dashboard at:          10.128.8.40:44939
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-md279z_v
+distributed.worker - INFO -          dashboard at:          10.128.8.40:36245
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-h2bvo31j
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-_by8055w
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.40:33717
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-n4evunqq
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.40:34903
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.40:33717
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.40:34903
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:          10.128.8.40:38097
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO -          dashboard at:          10.128.8.40:34451
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.40:38639
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.40:35513
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-umm6a761
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-_d7wo05i
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.40:35513
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.40:38639
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.40:46421
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:          10.128.8.40:34939
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.40:46421
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO -          dashboard at:          10.128.8.40:43869
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:          10.128.8.40:39407
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-6ne6jb2o
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.40:46807
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.40:46807
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-qe5dwgod
+distributed.worker - INFO -          dashboard at:          10.128.8.40:41275
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-ekagnz62
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-ijahn7n8
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.40:34657
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.40:34657
+distributed.worker - INFO -          dashboard at:          10.128.8.40:40947
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-qzcwmkh9
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.40:45321
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.40:45321
+distributed.worker - INFO -          dashboard at:          10.128.8.40:45917
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-9yp04bto
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.40:43813
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.40:43813
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:          10.128.8.40:43433
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.40:43867
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.40:43867
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-brcs0xyd
+distributed.worker - INFO -          dashboard at:          10.128.8.40:40117
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-txpgfxwv
+distributed.worker - INFO - -------------------------------------------------
+Traceback (most recent call last):
+  File "/opt/miniconda3/bin/dask-mpi", line 11, in <module>
+    sys.exit(go())
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 112, in go
+    main()
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 107, in main
+    asyncio.get_event_loop().run_until_complete(run_worker())
+  File "/opt/miniconda3/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 96, in run_worker
+    async with WorkerType(
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 294, in __aenter__
+    await self
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 284, in _
+    await self.start()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 1166, in start
+    await self._register_with_scheduler()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 914, in _register_with_scheduler
+    raise ValueError("Unexpected response from register: %r" % (response,))
+ValueError: Unexpected response from register: {'status': 'error', 'message': 'name taken, 22', 'time': 1640914685.7830403}
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.38:34381
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.38:34381
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.38:43817
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.38:42101
+distributed.worker - INFO -          dashboard at:          10.128.8.38:44735
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.38:42101
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.38:37935
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.38:43817
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:          10.128.8.38:37335
+distributed.worker - INFO -          dashboard at:          10.128.8.38:34727
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.38:37935
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.38:33457
+distributed.worker - INFO -          dashboard at:          10.128.8.38:44551
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-1qcmwh5g
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.38:33457
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.38:34779
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:          10.128.8.38:38325
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-b1mrknna
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-tbf5c7tr
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.38:34779
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:          10.128.8.38:40989
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-p2aet2hm
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-xv07lay4
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.38:44377
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-q2mo16rl
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.38:44377
+distributed.worker - INFO -          dashboard at:          10.128.8.38:40031
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-heo4xkkt
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.38:36945
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.38:36945
+distributed.worker - INFO -          dashboard at:          10.128.8.38:33653
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.38:36301
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.38:36301
+distributed.worker - INFO -          dashboard at:          10.128.8.38:45791
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-kpp4y14p
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-y_bqwf9o
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+Traceback (most recent call last):
+  File "/opt/miniconda3/bin/dask-mpi", line 11, in <module>
+    sys.exit(go())
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 112, in go
+    main()
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 107, in main
+    asyncio.get_event_loop().run_until_complete(run_worker())
+  File "/opt/miniconda3/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 96, in run_worker
+    async with WorkerType(
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 294, in __aenter__
+    await self
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 284, in _
+    await self.start()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 1166, in start
+    await self._register_with_scheduler()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 914, in _register_with_scheduler
+    raise ValueError("Unexpected response from register: %r" % (response,))
+ValueError: Unexpected response from register: {'status': 'error', 'message': 'name taken, 17', 'time': 1640914685.7898996}
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.38:36767
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.38:36767
+distributed.worker - INFO -          dashboard at:          10.128.8.38:35795
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-8iq_40_y
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+Traceback (most recent call last):
+  File "/opt/miniconda3/bin/dask-mpi", line 11, in <module>
+    sys.exit(go())
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 112, in go
+    main()
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 107, in main
+    asyncio.get_event_loop().run_until_complete(run_worker())
+  File "/opt/miniconda3/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 96, in run_worker
+    async with WorkerType(
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 294, in __aenter__
+    await self
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 284, in _
+    await self.start()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 1166, in start
+    await self._register_with_scheduler()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 914, in _register_with_scheduler
+    raise ValueError("Unexpected response from register: %r" % (response,))
+ValueError: Unexpected response from register: {'status': 'error', 'message': 'name taken, 66', 'time': 1640914685.8025875}
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+Traceback (most recent call last):
+  File "/opt/miniconda3/bin/dask-mpi", line 11, in <module>
+    sys.exit(go())
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 112, in go
+    main()
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 107, in main
+    asyncio.get_event_loop().run_until_complete(run_worker())
+  File "/opt/miniconda3/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 96, in run_worker
+    async with WorkerType(
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 294, in __aenter__
+    await self
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 284, in _
+    await self.start()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 1166, in start
+    await self._register_with_scheduler()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 914, in _register_with_scheduler
+    raise ValueError("Unexpected response from register: %r" % (response,))
+ValueError: Unexpected response from register: {'status': 'error', 'message': 'name taken, 61', 'time': 1640914685.804268}
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+Traceback (most recent call last):
+  File "/opt/miniconda3/bin/dask-mpi", line 11, in <module>
+    sys.exit(go())
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 112, in go
+    main()
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 107, in main
+    asyncio.get_event_loop().run_until_complete(run_worker())
+  File "/opt/miniconda3/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 96, in run_worker
+    async with WorkerType(
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 294, in __aenter__
+    await self
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 284, in _
+    await self.start()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 1166, in start
+    await self._register_with_scheduler()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 914, in _register_with_scheduler
+    raise ValueError("Unexpected response from register: %r" % (response,))
+ValueError: Unexpected response from register: {'status': 'error', 'message': 'name taken, 27', 'time': 1640914685.8240058}
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:    tcp://10.128.8.40:40641
+distributed.worker - INFO -          Listening to:    tcp://10.128.8.40:40641
+distributed.worker - INFO -          dashboard at:          10.128.8.40:40311
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-7v1e8_aq
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+Traceback (most recent call last):
+  File "/opt/miniconda3/bin/dask-mpi", line 11, in <module>
+    sys.exit(go())
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 112, in go
+    main()
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 107, in main
+    asyncio.get_event_loop().run_until_complete(run_worker())
+  File "/opt/miniconda3/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 96, in run_worker
+    async with WorkerType(
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 294, in __aenter__
+    await self
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 284, in _
+    await self.start()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 1166, in start
+    await self._register_with_scheduler()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 914, in _register_with_scheduler
+    raise ValueError("Unexpected response from register: %r" % (response,))
+ValueError: Unexpected response from register: {'status': 'error', 'message': 'name taken, 32', 'time': 1640914685.8301291}
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+Traceback (most recent call last):
+  File "/opt/miniconda3/bin/dask-mpi", line 11, in <module>
+    sys.exit(go())
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 112, in go
+    main()
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 107, in main
+    asyncio.get_event_loop().run_until_complete(run_worker())
+  File "/opt/miniconda3/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 96, in run_worker
+    async with WorkerType(
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 294, in __aenter__
+    await self
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 284, in _
+    await self.start()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 1166, in start
+    await self._register_with_scheduler()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 914, in _register_with_scheduler
+    raise ValueError("Unexpected response from register: %r" % (response,))
+ValueError: Unexpected response from register: {'status': 'error', 'message': 'name taken, 58', 'time': 1640914685.8410187}
+distributed.worker - INFO -       Start worker at:   tcp://10.128.51.81:40395
+distributed.worker - INFO -          Listening to:   tcp://10.128.51.81:40395
+distributed.worker - INFO -       Start worker at:   tcp://10.128.51.81:39767
+distributed.worker - INFO -          Listening to:   tcp://10.128.51.81:39767
+distributed.worker - INFO -          dashboard at:         10.128.51.81:41273
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO -          dashboard at:         10.128.51.81:46177
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO -       Start worker at:   tcp://10.128.51.81:46305
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:   tcp://10.128.51.81:46305
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Start worker at:   tcp://10.128.51.81:44313
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-k5pzy_19
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          dashboard at:         10.128.51.81:42977
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-fyy9r5tu
+distributed.worker - INFO -          Listening to:   tcp://10.128.51.81:44313
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO -       Start worker at:   tcp://10.128.51.81:35659
+distributed.worker - INFO -          dashboard at:         10.128.51.81:41343
+distributed.worker - INFO -       Start worker at:   tcp://10.128.51.81:36589
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:   tcp://10.128.51.81:35659
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:   tcp://10.128.51.81:36589
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Start worker at:   tcp://10.128.51.81:39871
+distributed.worker - INFO -          Listening to:   tcp://10.128.51.81:39871
+distributed.worker - INFO -          dashboard at:         10.128.51.81:40889
+distributed.worker - INFO -          dashboard at:         10.128.51.81:37755
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-qxy70bb8
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.51.81:36615
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-7phoro_9
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:         10.128.51.81:41949
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          Listening to:   tcp://10.128.51.81:36615
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:         10.128.51.81:43377
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-kt3yvi6j
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-is9fovzw
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-tooiy2jo
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-1af9ei7i
+distributed.worker - INFO -       Start worker at:   tcp://10.128.51.81:34533
+distributed.worker - INFO -       Start worker at:   tcp://10.128.51.81:41509
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:   tcp://10.128.51.81:34533
+distributed.worker - INFO -          Listening to:   tcp://10.128.51.81:41509
+distributed.worker - INFO -          dashboard at:         10.128.51.81:41393
+distributed.worker - INFO -          dashboard at:         10.128.51.81:33087
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.51.81:39979
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          Listening to:   tcp://10.128.51.81:39979
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          dashboard at:         10.128.51.81:36491
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-snzhjzkt
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-c0i2bnw3
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-uoa0d_i6
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.51.81:38123
+distributed.worker - INFO -          Listening to:   tcp://10.128.51.81:38123
+distributed.worker - INFO -          dashboard at:         10.128.51.81:35817
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-q2wv8tnb
+distributed.worker - INFO - -------------------------------------------------
+Traceback (most recent call last):
+  File "/opt/miniconda3/bin/dask-mpi", line 11, in <module>
+    sys.exit(go())
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 112, in go
+    main()
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 107, in main
+    asyncio.get_event_loop().run_until_complete(run_worker())
+  File "/opt/miniconda3/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 96, in run_worker
+    async with WorkerType(
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 294, in __aenter__
+    await self
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 284, in _
+    await self.start()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 1166, in start
+    await self._register_with_scheduler()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 914, in _register_with_scheduler
+    raise ValueError("Unexpected response from register: %r" % (response,))
+ValueError: Unexpected response from register: {'status': 'error', 'message': 'name taken, 81', 'time': 1640914685.916046}
+Traceback (most recent call last):
+  File "/opt/miniconda3/bin/dask-mpi", line 11, in <module>
+    sys.exit(go())
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 112, in go
+    main()
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 107, in main
+    asyncio.get_event_loop().run_until_complete(run_worker())
+  File "/opt/miniconda3/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 96, in run_worker
+    async with WorkerType(
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 294, in __aenter__
+    await self
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 284, in _
+    await self.start()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 1166, in start
+    await self._register_with_scheduler()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 914, in _register_with_scheduler
+    raise ValueError("Unexpected response from register: %r" % (response,))
+ValueError: Unexpected response from register: {'status': 'error', 'message': 'name taken, 77', 'time': 1640914685.9168034}
+Traceback (most recent call last):
+  File "/opt/miniconda3/bin/dask-mpi", line 11, in <module>
+    sys.exit(go())
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 112, in go
+    main()
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 107, in main
+    asyncio.get_event_loop().run_until_complete(run_worker())
+  File "/opt/miniconda3/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 96, in run_worker
+    async with WorkerType(
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 294, in __aenter__
+    await self
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 284, in _
+    await self.start()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 1166, in start
+    await self._register_with_scheduler()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 914, in _register_with_scheduler
+    raise ValueError("Unexpected response from register: %r" % (response,))
+ValueError: Unexpected response from register: {'status': 'error', 'message': 'name taken, 82', 'time': 1640914685.9169698}
+Traceback (most recent call last):
+  File "/opt/miniconda3/bin/dask-mpi", line 11, in <module>
+    sys.exit(go())
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 112, in go
+    main()
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 107, in main
+    asyncio.get_event_loop().run_until_complete(run_worker())
+  File "/opt/miniconda3/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 96, in run_worker
+    async with WorkerType(
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 294, in __aenter__
+    await self
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 284, in _
+    await self.start()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 1166, in start
+    await self._register_with_scheduler()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 914, in _register_with_scheduler
+    raise ValueError("Unexpected response from register: %r" % (response,))
+ValueError: Unexpected response from register: {'status': 'error', 'message': 'name taken, 69', 'time': 1640914685.9176931}
+Traceback (most recent call last):
+  File "/opt/miniconda3/bin/dask-mpi", line 11, in <module>
+    sys.exit(go())
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 112, in go
+    main()
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 107, in main
+    asyncio.get_event_loop().run_until_complete(run_worker())
+  File "/opt/miniconda3/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 96, in run_worker
+    async with WorkerType(
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 294, in __aenter__
+    await self
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 284, in _
+    await self.start()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 1166, in start
+    await self._register_with_scheduler()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 914, in _register_with_scheduler
+    raise ValueError("Unexpected response from register: %r" % (response,))
+ValueError: Unexpected response from register: {'status': 'error', 'message': 'name taken, 79', 'time': 1640914685.918487}
+Traceback (most recent call last):
+  File "/opt/miniconda3/bin/dask-mpi", line 11, in <module>
+    sys.exit(go())
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 112, in go
+    main()
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 107, in main
+    asyncio.get_event_loop().run_until_complete(run_worker())
+  File "/opt/miniconda3/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 96, in run_worker
+    async with WorkerType(
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 294, in __aenter__
+    await self
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 284, in _
+    await self.start()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 1166, in start
+    await self._register_with_scheduler()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 914, in _register_with_scheduler
+    raise ValueError("Unexpected response from register: %r" % (response,))
+ValueError: Unexpected response from register: {'status': 'error', 'message': 'name taken, 71', 'time': 1640914685.9186482}
+Traceback (most recent call last):
+  File "/opt/miniconda3/bin/dask-mpi", line 11, in <module>
+    sys.exit(go())
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 112, in go
+    main()
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 107, in main
+    asyncio.get_event_loop().run_until_complete(run_worker())
+  File "/opt/miniconda3/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 96, in run_worker
+    async with WorkerType(
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 294, in __aenter__
+    await self
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 284, in _
+    await self.start()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 1166, in start
+    await self._register_with_scheduler()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 914, in _register_with_scheduler
+    raise ValueError("Unexpected response from register: %r" % (response,))
+ValueError: Unexpected response from register: {'status': 'error', 'message': 'name taken, 68', 'time': 1640914685.9195065}
+Traceback (most recent call last):
+  File "/opt/miniconda3/bin/dask-mpi", line 11, in <module>
+    sys.exit(go())
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 112, in go
+    main()
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 107, in main
+    asyncio.get_event_loop().run_until_complete(run_worker())
+  File "/opt/miniconda3/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 96, in run_worker
+    async with WorkerType(
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 294, in __aenter__
+    await self
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 284, in _
+    await self.start()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 1166, in start
+    await self._register_with_scheduler()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 914, in _register_with_scheduler
+    raise ValueError("Unexpected response from register: %r" % (response,))
+ValueError: Unexpected response from register: {'status': 'error', 'message': 'name taken, 84', 'time': 1640914685.9196863}
+Traceback (most recent call last):
+  File "/opt/miniconda3/bin/dask-mpi", line 11, in <module>
+    sys.exit(go())
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 112, in go
+    main()
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 107, in main
+    asyncio.get_event_loop().run_until_complete(run_worker())
+  File "/opt/miniconda3/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 96, in run_worker
+    async with WorkerType(
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 294, in __aenter__
+    await self
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 284, in _
+    await self.start()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 1166, in start
+    await self._register_with_scheduler()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 914, in _register_with_scheduler
+    raise ValueError("Unexpected response from register: %r" % (response,))
+ValueError: Unexpected response from register: {'status': 'error', 'message': 'name taken, 83', 'time': 1640914685.9198186}
+Traceback (most recent call last):
+  File "/opt/miniconda3/bin/dask-mpi", line 11, in <module>
+    sys.exit(go())
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 112, in go
+    main()
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 107, in main
+    asyncio.get_event_loop().run_until_complete(run_worker())
+  File "/opt/miniconda3/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 96, in run_worker
+    async with WorkerType(
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 294, in __aenter__
+    await self
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 284, in _
+    await self.start()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 1166, in start
+    await self._register_with_scheduler()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 914, in _register_with_scheduler
+    raise ValueError("Unexpected response from register: %r" % (response,))
+ValueError: Unexpected response from register: {'status': 'error', 'message': 'name taken, 70', 'time': 1640914685.9199467}
+Traceback (most recent call last):
+  File "/opt/miniconda3/bin/dask-mpi", line 11, in <module>
+    sys.exit(go())
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 112, in go
+    main()
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 107, in main
+    asyncio.get_event_loop().run_until_complete(run_worker())
+  File "/opt/miniconda3/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 96, in run_worker
+    async with WorkerType(
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 294, in __aenter__
+    await self
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 284, in _
+    await self.start()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 1166, in start
+    await self._register_with_scheduler()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 914, in _register_with_scheduler
+    raise ValueError("Unexpected response from register: %r" % (response,))
+ValueError: Unexpected response from register: {'status': 'error', 'message': 'name taken, 80', 'time': 1640914685.9200747}
+Traceback (most recent call last):
+  File "/opt/miniconda3/bin/dask-mpi", line 11, in <module>
+    sys.exit(go())
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 112, in go
+    main()
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 107, in main
+    asyncio.get_event_loop().run_until_complete(run_worker())
+  File "/opt/miniconda3/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 96, in run_worker
+    async with WorkerType(
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 294, in __aenter__
+    await self
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 284, in _
+    await self.start()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 1166, in start
+    await self._register_with_scheduler()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 914, in _register_with_scheduler
+    raise ValueError("Unexpected response from register: %r" % (response,))
+ValueError: Unexpected response from register: {'status': 'error', 'message': 'name taken, 75', 'time': 1640914685.9201982}
+distributed.worker - INFO -       Start worker at:   tcp://10.128.51.81:44243
+distributed.worker - INFO -          Listening to:   tcp://10.128.51.81:44243
+distributed.worker - INFO -          dashboard at:         10.128.51.81:34547
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.5.132:34697
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-e7n7nt93
+distributed.worker - INFO - -------------------------------------------------
+Traceback (most recent call last):
+  File "/opt/miniconda3/bin/dask-mpi", line 11, in <module>
+    sys.exit(go())
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 112, in go
+    main()
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/miniconda3/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 107, in main
+    asyncio.get_event_loop().run_until_complete(run_worker())
+  File "/opt/miniconda3/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/miniconda3/lib/python3.8/site-packages/dask_mpi/cli.py", line 96, in run_worker
+    async with WorkerType(
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 294, in __aenter__
+    await self
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/core.py", line 284, in _
+    await self.start()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 1166, in start
+    await self._register_with_scheduler()
+  File "/opt/miniconda3/lib/python3.8/site-packages/distributed/worker.py", line 914, in _register_with_scheduler
+    raise ValueError("Unexpected response from register: %r" % (response,))
+ValueError: Unexpected response from register: {'status': 'error', 'message': 'name taken, 76', 'time': 1640914685.9685798}
+distributed.utils_perf - INFO - full garbage collection released 76.62 MB from 1289 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 76.46 MB from 1148 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 72.05 MB from 1366 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 37.80 MB from 1558 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 76.62 MB from 1232 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 38.22 MB from 860 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 37.79 MB from 913 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 80.10 MB from 913 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 35.96 MB from 967 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 75.61 MB from 1288 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 79.71 MB from 1148 reference cycles (threshold: 10.00 MB)
+###############
+Start!
+###############
+hello form dask, here is our client
+<Client: 'tcp://10.128.5.132:34697' processes=84 threads=84>
+84 workers created
+564.0022759675979 min spent.
+###############
+Finish!
+###############

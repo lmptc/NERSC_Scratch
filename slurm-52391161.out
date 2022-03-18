@@ -1,0 +1,46 @@
+distributed.http.proxy - INFO - To route to workers diagnostics web server please install jupyter-server-proxy: python -m pip install jupyter-server-proxy
+distributed.scheduler - INFO - Clear task state
+distributed.scheduler - INFO -   Scheduler at:  tcp://10.128.4.184:44073
+distributed.scheduler - INFO -   dashboard at:                     :8787
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.184:41659
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.184:41659
+distributed.worker - INFO -          dashboard at:         10.128.4.184:35073
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.4.184:44073
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.184:42117
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.184:42117
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          dashboard at:         10.128.4.184:42337
+distributed.worker - INFO -                Memory:                   15.00 GB
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.4.184:44073
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-xlisy74_
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                   15.00 GB
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-u7du67o_
+distributed.worker - INFO - -------------------------------------------------
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.184:42117', name: 2, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.184:42117
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.4.184:44073
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.184:41659', name: 1, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.184:41659
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.4.184:44073
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-d4db4430-6759-11ec-938d-2dead85814e1
+distributed.core - INFO - Starting established connection
+###############
+Start!
+###############
+7.065093155701955 min spent.
+###############
+Finish!
+###############
+distributed.scheduler - INFO - Remove client Client-d4db4430-6759-11ec-938d-2dead85814e1
+distributed.scheduler - INFO - Remove client Client-d4db4430-6759-11ec-938d-2dead85814e1
+distributed.scheduler - INFO - Close client connection: Client-d4db4430-6759-11ec-938d-2dead85814e1

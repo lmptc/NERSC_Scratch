@@ -1,0 +1,61 @@
+distributed.http.proxy - INFO - To route to workers diagnostics web server please install jupyter-server-proxy: python -m pip install jupyter-server-proxy
+distributed.scheduler - INFO - Clear task state
+distributed.scheduler - INFO -   Scheduler at:  tcp://10.128.4.106:45745
+distributed.scheduler - INFO -   dashboard at:                     :8787
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.106:35485
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.106:35485
+distributed.worker - INFO -          dashboard at:         10.128.4.106:40535
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.4.106:45745
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                   15.00 GB
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-u4md4meh
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.106:41877
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.106:41877
+distributed.worker - INFO -          dashboard at:         10.128.4.106:44475
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.4.106:45745
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                   15.00 GB
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-5g1vz9uq
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.106:41321
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.106:41321
+distributed.worker - INFO -          dashboard at:         10.128.4.106:40747
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.4.106:45745
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                   15.00 GB
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-tak0mz63
+distributed.worker - INFO - -------------------------------------------------
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.106:35485', name: 3, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.106:35485
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.4.106:45745
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.106:41877', name: 1, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.106:41877
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.106:41321', name: 2, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.4.106:45745
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.106:41321
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.4.106:45745
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-e613d257-6757-11ec-88e3-37ec7d01433c
+distributed.core - INFO - Starting established connection
+###############
+Start!
+###############
+7.0884639898935955 min spent.
+###############
+Finish!
+###############
+distributed.scheduler - INFO - Remove client Client-e613d257-6757-11ec-88e3-37ec7d01433c
+distributed.scheduler - INFO - Remove client Client-e613d257-6757-11ec-88e3-37ec7d01433c
+distributed.scheduler - INFO - Close client connection: Client-e613d257-6757-11ec-88e3-37ec7d01433c
