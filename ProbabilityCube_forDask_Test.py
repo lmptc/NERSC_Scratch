@@ -47,8 +47,8 @@ EventNames = EventNames[6:12]
 PointsPerDay = 1
 Objects = np.arange(0, 40000, 4)
 
-# Bands = ['u', 'g', 'r', 'i', 'z', 'Y']
-Bands = ['g', 'i']
+Bands = ['u', 'g', 'r', 'i', 'z', 'Y']
+# Bands = ['g', 'i']
 
 # dT1s = np.arange(-480, 481, 30)
 # dT2s = np.hstack(( np.arange(-1920, -1439, 30), np.arange(-480, 481, 30), np.arange(1440, 1921, 30) )) 

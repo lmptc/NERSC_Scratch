@@ -53,7 +53,7 @@ Bands = ['u', 'g', 'r', 'i', 'z', 'Y']
 dT1s = np.arange(-480, 481, 15)
 dT2s = np.hstack(( np.arange(-1920, -1439, 30), np.arange(-480, 481, 30), np.arange(1440, 1921, 30) )) 
 
-# dT1s = np.arange(-480, 481, 120) #for test
+# dT1s = np.arange(-480, 481, 60) #for test
 # dT2s = np.hstack(( np.arange(-1920, -1439, 240), np.arange(-480, 481, 240), np.arange(1440, 1921, 240) )) #for test
 # dT1s = np.arange(60, 76, 15)
 # dT2s = np.arange(450, 466, 15)

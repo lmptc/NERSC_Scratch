@@ -1,9 +1,9 @@
 #!/bin/bash
-#SBATCH -J Test
-#SBATCH -N 1
-#SBATCH -n 16
+#SBATCH -J TestN11
+#SBATCH -N 11
+#SBATCH -n 176
 #SBATCH -C haswell
-#SBATCH -q debug
+#SBATCH -q regular
 #SBATCH -t 00:30:00
 #SBATCH --image=stephey/nersc-dask-example:v0.6.0
 #SBATCH --mail-user=lianming@udel.edu
