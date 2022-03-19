@@ -42,10 +42,10 @@ EventNames = ['AGN', 'CART', 'EB', 'ILOT', 'MIRA', 'Mdwarf',
               'uLens-Single-GenLens', 'uLens-Single_PyLIMA']
 
 # EventNames = [ 'SNIa-SALT2']
-EventNames = EventNames[6+6:12+6]
+EventNames = EventNames[6:12]
 
 PointsPerDay = 1
-Objects = np.arange(4-4, 40000, 16)
+Objects = np.arange(4, 40000, 16)
 
 Bands = ['u', 'g', 'r', 'i', 'z', 'Y']
 # Bands = ['g', 'i']

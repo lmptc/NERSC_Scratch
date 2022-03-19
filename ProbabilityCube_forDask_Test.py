@@ -42,10 +42,10 @@ EventNames = ['AGN', 'CART', 'EB', 'ILOT', 'MIRA', 'Mdwarf',
               'uLens-Single-GenLens', 'uLens-Single_PyLIMA']
 
 # EventNames = [ 'SNIa-SALT2']
-EventNames = EventNames[0:7]
+EventNames = EventNames[6:12]
 
 PointsPerDay = 1
-Objects = np.arange(0, 40000, 1)
+Objects = np.arange(0, 40000, 4)
 
 # Bands = ['u', 'g', 'r', 'i', 'z', 'Y']
 Bands = ['g', 'i']
@@ -53,10 +53,10 @@ Bands = ['g', 'i']
 # dT1s = np.arange(-480, 481, 30)
 # dT2s = np.hstack(( np.arange(-1920, -1439, 30), np.arange(-480, 481, 30), np.arange(1440, 1921, 30) )) 
 
-# dT1s = np.arange(-480, 481, 120) #for test
-# dT2s = np.hstack(( np.arange(-1920, -1439, 240), np.arange(-480, 481, 240), np.arange(1440, 1921, 240) )) #for test
-dT1s = np.arange(60, 120, 15)
-dT2s = np.arange(450, 510, 15)
+dT1s = np.arange(-480, 481, 60) #for test
+dT2s = np.hstack(( np.arange(-1920, -1439, 240), np.arange(-480, 481, 240), np.arange(1440, 1921, 240) )) #for test
+# dT1s = np.arange(60, 120, 15)
+# dT2s = np.arange(450, 510, 15)
 
 BinMag = np.arange(-5.05, 6.01, 0.1)
 BinColor = np.arange(-9.25, 9.8, 0.5)
