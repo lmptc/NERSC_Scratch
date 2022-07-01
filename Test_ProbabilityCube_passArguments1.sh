@@ -14,5 +14,6 @@ export OMP_PROC_BIND=spread
 
 
 #run the application:
-srun -N 1 -n 1 -c 64 --cpu_bind=cores python3 /global/cscratch1/sd/lianming/Test_ProbabilityCube_passArguments.py 5 7 60 91 urY 
-srun -N 1 -n 1 -c 64 --cpu_bind=cores python3 /global/cscratch1/sd/lianming/Test_ProbabilityCube_passArguments.py 5 8 60 81 ui
+module load python
+srun -N 1 -n 1 -c 64 --cpu_bind=cores python3 /global/cscratch1/sd/lianming/Test_ProbabilityCube_passArguments.py 5 7 60 91 urY &
+srun -N 1 -n 1 -c 64 --cpu_bind=cores python3 /global/cscratch1/sd/lianming/Test_ProbabilityCube_passArguments.py 5 8 60 81 ur

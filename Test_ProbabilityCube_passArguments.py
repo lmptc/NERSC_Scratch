@@ -59,6 +59,7 @@ for EventName in EventNames:
     
     print('##########################')
     print('This is the calculation of {}'.format(EventName))
+    print('Starting time {:.4f}.'.format(time1))
     
     FilePath = os.path.join(PathInterp, EventName+'_Interp.pkl')
     with open(FilePath, 'rb') as f:
@@ -126,7 +127,7 @@ for EventName in EventNames:
             print('')
             
 print('Finish!')
-
+print('Finish time {:.4f}.'.format(time.time()))
 print( '{} min spent.'.format( (time.time() - time1)/60 ))
 
 ############
