@@ -9,6 +9,8 @@
 #SBATCH --mail-user=lianming@udel.edu
 #SBATCH --mail-type=ALL
 
+rm -f $SCRATCH/scheduler.json
+
 #start your dask cluster
 srun -u shifter dask-mpi --scheduler-file=$SCRATCH/scheduler.json --nthreads=1 --memory-limit=0 --no-nanny --local-directory=/tmp &
 

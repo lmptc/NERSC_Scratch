@@ -3,8 +3,8 @@
 #SBATCH -N 11
 #SBATCH -n 176
 #SBATCH -C haswell
-#SBATCH -q overrun
-#SBATCH -t 03:30:00
+#SBATCH -q regular
+#SBATCH -t 03:00:00
 #SBATCH --image=stephey/nersc-dask-example:v0.6.0
 #SBATCH --mail-user=lianming@udel.edu
 #SBATCH --mail-type=ALL
