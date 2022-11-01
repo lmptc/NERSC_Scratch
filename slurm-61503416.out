@@ -1,0 +1,2024 @@
+distributed.http.proxy - INFO - To route to workers diagnostics web server please install jupyter-server-proxy: python -m pip install jupyter-server-proxy
+distributed.scheduler - INFO - Clear task state
+distributed.scheduler - INFO -   Scheduler at:  tcp://10.128.3.116:38065
+distributed.scheduler - INFO -   dashboard at:                     :8787
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.116:40205
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.116:40205
+distributed.worker - INFO -          dashboard at:         10.128.3.116:45279
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-32cfdkwy
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.116:35119
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.116:33153
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.116:35119
+distributed.worker - INFO -          dashboard at:         10.128.3.116:34011
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.116:33153
+distributed.worker - INFO -          dashboard at:         10.128.3.116:46859
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-35tpz1xf
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-zcq73qpg
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.116:37359
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.116:44315
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.116:37359
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.116:44315
+distributed.worker - INFO -          dashboard at:         10.128.3.116:44439
+distributed.worker - INFO -          dashboard at:         10.128.3.116:43933
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-izmcfwo1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-i24yq_ya
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.116:40205', name: 8, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.116:40205
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.116:33153', name: 15, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.116:33153
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.116:35119', name: 14, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.116:35119
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.116:37359', name: 3, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.116:37359
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.116:44315', name: 17, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.116:44315
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.116:35773
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.116:43529
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.116:35773
+distributed.worker - INFO -          dashboard at:         10.128.3.116:42435
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.116:43529
+distributed.worker - INFO -          dashboard at:         10.128.3.116:39797
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-bh20h7bw
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-acjhj9f3
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.116:33937
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.116:33937
+distributed.worker - INFO -          dashboard at:         10.128.3.116:39807
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.116:33519
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.116:38559
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.116:33519
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.116:38559
+distributed.worker - INFO -          dashboard at:         10.128.3.116:46311
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.116:40543
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.116:40543
+distributed.worker - INFO -          dashboard at:         10.128.3.116:36845
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-rn_0tn0q
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -          dashboard at:         10.128.3.116:37053
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-glc7d4tn
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.116:36261
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-lpfam1lc
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.116:43349
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.116:36261
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-nygb67_l
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.116:38103
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.116:43349
+distributed.worker - INFO -          dashboard at:         10.128.3.116:39207
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -          dashboard at:         10.128.3.116:39065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.116:38103
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          dashboard at:         10.128.3.116:40103
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-hz67ey9f
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.116:37299
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-zku0z52q
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.116:44521
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.116:37299
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:         10.128.3.116:33925
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.116:44521
+distributed.worker - INFO -          dashboard at:         10.128.3.116:39181
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-fh5ey_kl
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-ojkue0j_
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-yyg119sk
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.116:33943
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.116:33943
+distributed.worker - INFO -          dashboard at:         10.128.3.116:32795
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-s9pq9zrk
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.182:41365
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.182:41365
+distributed.worker - INFO -          dashboard at:         10.128.4.182:40881
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.182:37411
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.182:37411
+distributed.worker - INFO -          dashboard at:         10.128.4.182:38791
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-dl5ktsjd
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.182:34379
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-rbayvdtn
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.182:42047
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.182:35865
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.141:42315
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.141:42315
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.141:44069
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.141:44069
+distributed.worker - INFO -          dashboard at:         10.128.3.141:34237
+distributed.worker - INFO -          dashboard at:         10.128.3.141:41315
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.141:40073
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.141:38085
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.141:46747
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.141:40073
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.141:38085
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.141:39623
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.141:43763
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.141:37583
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.141:46747
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.141:43763
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.141:37583
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-2bk9j1b8
+distributed.worker - INFO -          dashboard at:         10.128.3.141:32865
+distributed.worker - INFO -          dashboard at:         10.128.3.141:34759
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.141:39623
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          dashboard at:         10.128.3.141:39667
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-zrkpkf50
+distributed.worker - INFO -          dashboard at:         10.128.3.141:40175
+distributed.worker - INFO -          dashboard at:         10.128.3.141:39599
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.141:40771
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:         10.128.3.141:38245
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.141:40771
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.181:41505
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.181:41505
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.116:35773', name: 4, memory: 0, processing: 0>
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.181:44493
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.181:44493
+distributed.worker - INFO -          dashboard at:         10.128.4.181:36839
+distributed.worker - INFO -          dashboard at:         10.128.4.181:38019
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.181:44047
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.181:44047
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.117:37785
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.117:37785
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.181:38717
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.117:33025
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          dashboard at:         10.128.3.117:40575
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.117:42819
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.181:36099
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.117:33025
+distributed.worker - INFO -          dashboard at:         10.128.4.181:32921
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.117:42819
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.181:38717
+distributed.worker - INFO -          dashboard at:         10.128.3.117:41475
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.143:42111
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.143:42111
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.181:33101
+distributed.worker - INFO -          dashboard at:         10.128.3.117:41307
+distributed.worker - INFO -          dashboard at:         10.128.3.143:36761
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.181:46697
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.181:42533
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-8n8fv8p6
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.181:36099
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-bwqv2_7q
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-wt384yeb
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.181:38837
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.143:43611
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-3_bdg6u3
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.143:42603
+distributed.worker - INFO -          dashboard at:         10.128.4.181:43751
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.143:33307
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.181:43801
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.142:35445
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.142:35445
+distributed.worker - INFO -               Threads:                          1
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.116:35773
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.181:33101
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.158:45701
+distributed.worker - INFO -          dashboard at:         10.128.3.142:35555
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-bvq73rds
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.143:43611
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.158:44559
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.158:44559
+distributed.worker - INFO -          dashboard at:         10.128.3.158:34403
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-yg14_o0f
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.143:42603
+distributed.worker - INFO -          dashboard at:         10.128.4.181:36783
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.158:45701
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.142:40057
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.142:40057
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.143:33307
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.181:38837
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.158:43413
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.143:43917
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.181:39989
+distributed.worker - INFO -          dashboard at:         10.128.3.158:42075
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.142:33203
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.142:33203
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.117:40719
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.143:36035
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.181:37811
+distributed.worker - INFO -          dashboard at:         10.128.3.142:38673
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.117:40719
+distributed.worker - INFO -          dashboard at:         10.128.3.143:42407
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.181:46697
+distributed.worker - INFO -          dashboard at:         10.128.4.181:42705
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.142:39069
+distributed.worker - INFO -          dashboard at:         10.128.3.117:44751
+distributed.worker - INFO -          dashboard at:         10.128.3.143:45053
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.181:42533
+distributed.worker - INFO -          dashboard at:         10.128.4.181:46621
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.158:43413
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.181:43801
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.158:33199
+distributed.worker - INFO -          dashboard at:         10.128.3.142:45443
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.143:43917
+distributed.worker - INFO -          dashboard at:         10.128.4.181:35229
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          dashboard at:         10.128.3.143:39421
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -          dashboard at:         10.128.3.158:37659
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.142:39069
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-464mrssj
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.158:33199
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.142:35305
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.158:40849
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.117:33855
+distributed.worker - INFO -          dashboard at:         10.128.3.143:42039
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.117:44201
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.143:34877
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.117:40251
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.143:36035
+distributed.worker - INFO -          dashboard at:         10.128.3.158:34759
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:         10.128.3.142:35021
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.143:39403
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.142:35305
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-phwr1ufc
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.142:35641
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.143:34877
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.158:40849
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.143:39403
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.142:41555
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.142:41555
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-nnfb437x
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.158:36269
+distributed.worker - INFO -          dashboard at:         10.128.3.142:38141
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.158:40445
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.142:38159
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.142:38159
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-1dq8qjy6
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-s9aien_n
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-w7ec5m8n
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-tnfze5zj
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.142:35641
+distributed.worker - INFO -          dashboard at:         10.128.3.142:46679
+distributed.worker - INFO -          dashboard at:         10.128.3.158:43343
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.142:41627
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.142:41627
+distributed.worker - INFO -          dashboard at:         10.128.3.142:34933
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.158:35277
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.142:39965
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.142:39965
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.158:42443
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.142:42439
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.142:42439
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.158:33329
+distributed.worker - INFO -          dashboard at:         10.128.3.142:40909
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.142:38701
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.142:38701
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.142:46451
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-yf_mebqj
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.142:37365
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.142:37365
+distributed.worker - INFO -          dashboard at:         10.128.3.142:36515
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.142:43293
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.142:43293
+distributed.worker - INFO -          dashboard at:         10.128.3.142:42039
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.142:44941
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.142:44941
+distributed.worker - INFO -          dashboard at:         10.128.3.142:38127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:         10.128.3.142:39605
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.142:34595
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.142:46451
+distributed.worker - INFO -          dashboard at:         10.128.3.142:35181
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-9vuz18y6
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          dashboard at:         10.128.3.142:43861
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-r68urwka
+distributed.worker - INFO -          dashboard at:         10.128.3.142:39549
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.116:43529', name: 16, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.116:43529
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.116:33937', name: 2, memory: 0, processing: 0>
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.116:33937
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.116:33519', name: 11, memory: 0, processing: 0>
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.116:33519
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.116:40543', name: 12, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.116:40543
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.116:38559', name: 10, memory: 0, processing: 0>
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.116:38559
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.116:36261', name: 1, memory: 0, processing: 0>
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.116:36261
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.116:43349', name: 13, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.116:43349
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.116:37299', name: 5, memory: 0, processing: 0>
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.116:37299
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.116:44521', name: 7, memory: 0, processing: 0>
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.116:44521
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.116:38103', name: 9, memory: 0, processing: 0>
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.116:38103
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.141:43945
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.141:35833
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.141:42985
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-ota_4gaa
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.182:34379
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.182:45067
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.141:43945
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-tvpw_y49
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.182:35865
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.141:35833
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.182:42047
+distributed.worker - INFO -          dashboard at:         10.128.3.141:43297
+distributed.worker - INFO -          dashboard at:         10.128.4.182:32803
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-nhd44ahc
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.182:45067
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.141:42985
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.182:43989
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          dashboard at:         10.128.4.182:44531
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.182:42731
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -          dashboard at:         10.128.4.182:35935
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-mk9dgq9w
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-fwo7wr0x
+distributed.worker - INFO -          dashboard at:         10.128.4.182:42727
+distributed.worker - INFO -          dashboard at:         10.128.3.141:39437
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-mn_1ao9w
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.182:43989
+distributed.worker - INFO -          dashboard at:         10.128.3.141:44807
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -          dashboard at:         10.128.3.141:46291
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.182:42731
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.141:38669
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.182:35163
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.141:42141
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.182:39393
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:         10.128.4.182:41283
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:         10.128.4.182:34073
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.182:35163
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.182:39393
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.141:38669
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.141:42141
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.141:35785
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.182:36679
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.182:39737
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.141:35785
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-_wfyp7f7
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-a0f0_bgo
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-j93prrun
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-m3vs125t
+distributed.worker - INFO -          dashboard at:         10.128.4.182:36195
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-3bo09t22
+distributed.worker - INFO -          dashboard at:         10.128.4.182:41877
+distributed.worker - INFO -          dashboard at:         10.128.3.141:36985
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-u9pz4254
+distributed.worker - INFO -          dashboard at:         10.128.3.141:40349
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          dashboard at:         10.128.3.141:32831
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-2ly3yw66
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-2nb0l26w
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.182:36679
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.182:39737
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.182:45477
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:         10.128.4.182:33159
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.182:43785
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-dn9pyuya
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-nq40z5rg
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-ygxuukc5
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.141:40265
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.182:43785
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-50oxtluo
+distributed.worker - INFO -          dashboard at:         10.128.4.182:44195
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-2jm7vit9
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.141:40265
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.182:33899
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.141:45285
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          dashboard at:         10.128.3.141:33199
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.182:45477
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.141:45285
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.182:34611
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.182:39777
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-5ueltvyt
+distributed.worker - INFO -          dashboard at:         10.128.3.141:33653
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-diopy2_c
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-g468pbo9
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -          dashboard at:         10.128.4.182:40063
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:         10.128.4.182:35757
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.182:43881
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.182:43881
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.182:34611
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-an7hw8_2
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.182:33899
+distributed.worker - INFO -          dashboard at:         10.128.4.182:37621
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.141:36125
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.141:36125
+distributed.worker - INFO -          dashboard at:         10.128.4.182:43599
+distributed.worker - INFO -          dashboard at:         10.128.3.141:46719
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.182:39777
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-sc47dckb
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-5ktl1bxm
+distributed.worker - INFO -          dashboard at:         10.128.4.182:32819
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:         10.128.4.182:45693
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-kn_60g67
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-9niechl4
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-nz59frk7
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.116:33943', name: 6, memory: 0, processing: 0>
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-ba0v9cqq
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-arh4hj2f
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-h205_1_3
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-rjnvualr
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.116:33943
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-sd90wqk2
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.117:46365
+distributed.worker - INFO -          dashboard at:         10.128.3.143:41321
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.158:40445
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.117:43983
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.143:37375
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.158:36269
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.117:33855
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.143:43055
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.117:40251
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-93z7vvhi
+distributed.worker - INFO -          dashboard at:         10.128.4.181:38403
+distributed.worker - INFO -          dashboard at:         10.128.3.158:37925
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.117:46365
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.181:39989
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.117:37075
+distributed.worker - INFO -          dashboard at:         10.128.3.143:39791
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.158:42443
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.117:43983
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.143:39443
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.143:39443
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.117:44201
+distributed.worker - INFO -          dashboard at:         10.128.3.143:46197
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.158:35277
+distributed.worker - INFO -          dashboard at:         10.128.3.117:33727
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-ji1ipshe
+distributed.worker - INFO -          dashboard at:         10.128.4.181:45921
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.158:33329
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.117:42259
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.143:42541
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:         10.128.3.158:45967
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.117:40841
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.143:45633
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:         10.128.3.117:42409
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-d936d2te
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.181:38913
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.181:38913
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -          dashboard at:         10.128.3.117:46261
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-ujadu6ue
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.117:37711
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.143:37845
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.181:41649
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.181:41649
+distributed.worker - INFO -          dashboard at:         10.128.3.158:36575
+distributed.worker - INFO -          dashboard at:         10.128.3.117:34261
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.158:46089
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.117:35273
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.143:37375
+distributed.worker - INFO -          dashboard at:         10.128.3.143:39395
+distributed.worker - INFO -          dashboard at:         10.128.4.181:43515
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.117:42195
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.181:37811
+distributed.worker - INFO -          dashboard at:         10.128.4.181:42123
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -          dashboard at:         10.128.3.117:36473
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.143:42541
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-55r8rkk5
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.158:43743
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.117:37711
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.143:43055
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.158:46089
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.117:37075
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.158:35619
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.117:37621
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.143:45633
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.158:38749
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.143:44225
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.181:40361
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.181:40361
+distributed.worker - INFO -          dashboard at:         10.128.3.158:39995
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:         10.128.3.143:35611
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.117:33011
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.117:33011
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.143:37845
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:         10.128.3.158:34655
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.143:37737
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.158:44349
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -          dashboard at:         10.128.3.117:44829
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.158:33345
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.117:35273
+distributed.worker - INFO -          dashboard at:         10.128.3.117:39603
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.158:42977
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.117:42259
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-br_k90gl
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.158:39253
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.117:40841
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-z0hwcf9u
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.158:38749
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-io45i6g8
+distributed.worker - INFO -          dashboard at:         10.128.4.181:37251
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-w_r_vyei
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.117:42195
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:         10.128.4.181:40823
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          dashboard at:         10.128.3.143:36537
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-h1bt5vi6
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.158:43743
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.143:37737
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          dashboard at:         10.128.3.117:41229
+distributed.worker - INFO -          dashboard at:         10.128.3.143:44475
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-xrvei1pn
+distributed.worker - INFO -          dashboard at:         10.128.3.158:38485
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.117:37621
+distributed.worker - INFO -          dashboard at:         10.128.3.143:44429
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-pzhtw15h
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          dashboard at:         10.128.3.143:38931
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.158:33345
+distributed.worker - INFO -          dashboard at:         10.128.3.117:37723
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.143:44225
+distributed.worker - INFO -          dashboard at:         10.128.4.181:46653
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.158:35619
+distributed.worker - INFO -          dashboard at:         10.128.3.158:41291
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-5792kkey
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-u0ch6_sr
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:         10.128.3.158:44819
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-ezh1ksz3
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-3xhbf9na
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-6e6xppl2
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-pz5x72g8
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-x30zm3hg
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:         10.128.3.143:39759
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-bf4140pb
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.158:44349
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-e31c8tsk
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:         10.128.3.117:42503
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.143:35637
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.158:42977
+distributed.worker - INFO -          dashboard at:         10.128.3.117:33981
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.158:39253
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:         10.128.3.117:39015
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-zu6bn04a
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-bredmp5u
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:         10.128.3.117:33805
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-u105j1gr
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.143:42691
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.117:36773
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          dashboard at:         10.128.3.158:41085
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:         10.128.3.143:35643
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:         10.128.3.158:46209
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-_qz9x9lr
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-hdedpc5h
+distributed.worker - INFO -          dashboard at:         10.128.3.158:46637
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-0p7da6ig
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-yssd4hy6
+distributed.worker - INFO -          dashboard at:         10.128.3.158:37455
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:         10.128.3.158:41005
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-2hpwwuai
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.143:35637
+distributed.worker - INFO -          dashboard at:         10.128.3.143:37039
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-azv1g4dx
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-51ihx437
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-gkftbvad
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.181:40623
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.181:40623
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-zqr12ciq
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-sr173rsh
+distributed.worker - INFO -          dashboard at:         10.128.4.181:38349
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.117:36773
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.143:42691
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-thka8x7s
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-txapy0l8
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-ciqlkdzz
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.181:45311
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.181:45311
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-wo6zy6zg
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://10.128.4.181:41345
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-9qrvctwx
+distributed.worker - INFO -          dashboard at:         10.128.4.181:35419
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:   tcp://10.128.4.181:41345
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-ljclj_9g
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-jccdddyf
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:         10.128.4.181:34477
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:         10.128.3.143:46413
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:         10.128.3.117:42201
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-ctm5a4ay
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-htzm8wzn
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-bstitrqp
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-jib94tq9
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-9fq5q7nw
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-r04qeyr4
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-28a3i8sx
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-k0l7g523
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-sq3wqrm7
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-6o25summ
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-_bpy678l
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-mjpz5ni9
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-mzzzbud_
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-m4uzvb22
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-7b5qurhn
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-tua1i4mq
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-bjwf5j6l
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-7wcnllrh
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-stc47p7j
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-4p2o0z_m
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-ma2zfl8e
+distributed.worker - INFO -          dashboard at:         10.128.3.142:46649
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-ysl8rwyd
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-mkkbobxr
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.142:34595
+distributed.worker - INFO -          dashboard at:         10.128.3.142:39051
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-yo8fvs55
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -       Start worker at:   tcp://10.128.3.142:37963
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-hx3sob_z
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-zsetf2er
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:   tcp://10.128.3.142:37963
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-_hj_winw
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          dashboard at:         10.128.3.142:38001
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-hg9xz4ai
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-923_gb58
+distributed.worker - INFO - Waiting to connect to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-f3zl6i2i
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-1r7bq5ax
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /tmp/dask-worker-space/worker-zsq_jcbv
+distributed.worker - INFO - -------------------------------------------------
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.182:41365', name: 131, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.182:41365
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.182:37411', name: 141, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.182:37411
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.182:42731', name: 137, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.182:42731
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.182:35865', name: 142, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.182:35865
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.182:45067', name: 133, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.182:45067
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.182:42047', name: 130, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.182:42047
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.182:34379', name: 132, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.182:34379
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.182:43989', name: 129, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.182:43989
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.182:35163', name: 134, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.182:35163
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.182:39393', name: 136, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.182:39393
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.182:36679', name: 139, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.182:36679
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.182:39737', name: 128, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.182:39737
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.182:43785', name: 140, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.182:43785
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.182:34611', name: 126, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.182:34611
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.182:33899', name: 135, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.182:33899
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.182:45477', name: 138, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.182:45477
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.182:43881', name: 143, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.182:43881
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.182:39777', name: 127, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.182:39777
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.141:42315', name: 39, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.141:42315
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.141:44069', name: 50, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.141:44069
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.141:38085', name: 48, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.141:38085
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.141:46747', name: 40, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.141:46747
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.141:40073', name: 44, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.141:40073
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.141:43763', name: 53, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.141:43763
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.141:39623', name: 49, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.141:39623
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.141:37583', name: 38, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.141:37583
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.141:42985', name: 45, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.141:42985
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.141:43945', name: 37, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.141:43945
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.141:35833', name: 41, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.141:35833
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.141:40771', name: 43, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.141:40771
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.141:35785', name: 47, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.141:35785
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.141:38669', name: 36, memory: 0, processing: 0>
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.141:38669
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.141:40265', name: 51, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.141:40265
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.141:42141', name: 42, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.141:42141
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.141:45285', name: 46, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.141:45285
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.141:36125', name: 52, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.141:36125
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.181:41505', name: 111, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.181:41505
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.181:44493', name: 121, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.181:44493
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.181:44047', name: 115, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.181:44047
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.181:38717', name: 122, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.181:38717
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.181:33101', name: 110, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.181:33101
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.181:42533', name: 108, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.181:42533
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.181:36099', name: 113, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.181:36099
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.181:46697', name: 123, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.181:46697
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.181:38837', name: 117, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.181:38837
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.181:43801', name: 109, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.181:43801
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.181:39989', name: 119, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.181:39989
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.117:37785', name: 26, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.117:37785
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.181:37811', name: 120, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.181:37811
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.117:33025', name: 18, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.117:33025
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.181:41649', name: 116, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.181:41649
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.181:40361', name: 112, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.181:40361
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.181:38913', name: 114, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.181:38913
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.117:42819', name: 28, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.117:42819
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.143:42111', name: 74, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.143:42111
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.181:40623', name: 125, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.181:40623
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.117:40719', name: 25, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.117:40719
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.143:33307', name: 73, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.143:33307
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.143:42603', name: 86, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.143:42603
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.143:43917', name: 77, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.143:43917
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.143:39403', name: 84, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.143:39403
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.143:42541', name: 88, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.143:42541
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.143:34877', name: 78, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.143:34877
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.158:45701', name: 102, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.158:45701
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.143:37375', name: 85, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.143:37375
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.142:40057', name: 56, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.142:40057
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.142:33203', name: 57, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.142:33203
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.143:39443', name: 79, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.143:39443
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.117:40251', name: 31, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.117:40251
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.117:43983', name: 29, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.117:43983
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.143:43611', name: 82, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.143:43611
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.158:33199', name: 91, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.158:33199
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.117:33855', name: 21, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.117:33855
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.143:37845', name: 80, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.143:37845
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.142:35305', name: 70, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.142:35305
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.158:43413', name: 105, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.158:43413
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.117:46365', name: 19, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.117:46365
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.142:39069', name: 59, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.142:39069
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.158:44559', name: 104, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.158:44559
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.143:37737', name: 81, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.143:37737
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.117:33011', name: 35, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.117:33011
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.117:37711', name: 23, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.117:37711
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.142:35445', name: 69, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.142:35445
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.143:36035', name: 83, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.143:36035
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.142:41627', name: 60, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.142:41627
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.117:35273', name: 30, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.117:35273
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.142:38159', name: 71, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.142:38159
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.142:42439', name: 65, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.142:42439
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.158:40445', name: 92, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.158:40445
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.142:35641', name: 58, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.142:35641
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.143:35637', name: 87, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.143:35637
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.117:37075', name: 24, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.117:37075
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.142:39965', name: 63, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.142:39965
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.143:45633', name: 75, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.143:45633
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.142:41555', name: 67, memory: 0, processing: 0>
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.142:41555
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.143:43055', name: 72, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.143:43055
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.158:42443', name: 96, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.158:42443
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.142:44941', name: 66, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.142:44941
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.142:46451', name: 55, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.142:46451
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.143:44225', name: 76, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.143:44225
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.117:44201', name: 22, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.117:44201
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.142:34595', name: 54, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.142:34595
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.158:40849', name: 93, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.158:40849
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.158:46089', name: 99, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.158:46089
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.117:40841', name: 33, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.117:40841
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.142:38701', name: 68, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.142:38701
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.158:35619', name: 103, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.158:35619
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.158:38749', name: 90, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.158:38749
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.117:37621', name: 27, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.117:37621
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.143:42691', name: 89, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.143:42691
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.117:42259', name: 32, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.117:42259
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.117:42195', name: 20, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.117:42195
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.142:37365', name: 61, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.142:37365
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.158:36269', name: 100, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.158:36269
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.117:36773', name: 34, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.117:36773
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.158:33345', name: 101, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.158:33345
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.158:35277', name: 95, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.158:35277
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.158:33329', name: 97, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.158:33329
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.158:42977', name: 106, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.158:42977
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.158:43743', name: 94, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.158:43743
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.142:37963', name: 62, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.142:37963
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.158:39253', name: 107, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.158:39253
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.158:44349', name: 98, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.158:44349
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.181:45311', name: 118, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.181:45311
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.3.142:43293', name: 64, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.3.142:43293
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <Worker 'tcp://10.128.4.181:41345', name: 124, memory: 0, processing: 0>
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.128.4.181:41345
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.128.3.116:38065
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ff010b9e-0edb-11ed-9d79-00010100046d
+distributed.core - INFO - Starting established connection
+distributed.utils_perf - INFO - full garbage collection released 37.83 MB from 1447 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 41.34 MB from 1311 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 37.56 MB from 1415 reference cycles (threshold: 10.00 MB)
+###############
+Start!
+###############
+hello form dask, here is our client
+<Client: 'tcp://10.128.3.116:38065' processes=143 threads=143>
+143 workers created
+103.16260239283244 min spent.
+###############
+Finish!
+###############
+distributed.scheduler - INFO - Remove client Client-ff010b9e-0edb-11ed-9d79-00010100046d
+distributed.scheduler - INFO - Remove client Client-ff010b9e-0edb-11ed-9d79-00010100046d
+distributed.scheduler - INFO - Close client connection: Client-ff010b9e-0edb-11ed-9d79-00010100046d
