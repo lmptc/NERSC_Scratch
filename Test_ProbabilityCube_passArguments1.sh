@@ -2,7 +2,7 @@
 #SBATCH -N 2
 #SBATCH -C haswell
 #SBATCH -q regular
-#SBATCH -J No&
+#SBATCH -J With&
 #SBATCH --mail-user=lianming@udel.edu
 #SBATCH --mail-type=ALL
 #SBATCH -t 00:02:00

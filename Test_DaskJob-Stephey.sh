@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH -J Test-Stephey
 #SBATCH -N 2
-#SBATCH -n 33
+#SBATCH -n 35
 #SBATCH -C haswell
 #SBATCH -q debug
 #SBATCH -t 00:05:00
